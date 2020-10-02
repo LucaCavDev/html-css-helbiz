@@ -31,10 +31,6 @@ img {
   max-height: 1000px;
 }
 
-.quadrato-bianco {
-  background-color: white;
-  min-height: 50px;
-}
 
 .centra-head-foot{
   /* padding: 0 10%; */
@@ -131,16 +127,17 @@ header li a {
 }
 
 
-
-
-
-
-
 /* sezione social */
-.social {
-  background-image: url("../img/collage.png");
-  background-size: cover;
-  height: 400px; /*SOLO PER LARGE*/
+
+
+.quadrato-bianco {
+  background-color: white;
+  min-height: 50px;
+  position: absolute;
+  top: 50%;
+  width: 50%;
+  text-align: center;
+  font-size: 18px;
 }
 
 /* regole corpo pagina */
