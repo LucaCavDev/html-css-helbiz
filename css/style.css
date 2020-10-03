@@ -140,6 +140,55 @@ header li a {
   font-size: 18px;
 }
 
+/* sezione footer */
+
+footer {
+  background-color: black;
+  min-height: 400px;
+}
+
+footer .text {
+  color: white;
+}
+
+.footer1 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.footer1 li a {
+  display: block;
+  color: lightgrey;
+  text-decoration: none;
+}
+
+.footerbottom {
+  border-bottom: 1px solid grey;
+}
+
+.footer2 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.footer2 li {
+  float: left;
+}
+
+.footer2 li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+
+
 /* regole corpo pagina */
 
 
