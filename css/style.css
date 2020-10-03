@@ -140,38 +140,49 @@ header li a {
   font-size: 18px;
 }
 
-/* sezione footer */
+/* INIZIO CSS FOOTER */
+
+
+/* debug */
+footer {
+  min-height: 500px;
+}
+/* fine debug */
 
 footer {
-  background-color: black;
-  min-height: 400px;
+  background-color: #000000;
 }
 
-footer .text {
+.footertext {
   color: white;
-}
-
-.footer1 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-
-}
-
-.footer1 li a {
-  display: block;
-  color: lightgrey;
-  text-decoration: none;
 }
 
 .footerbottom {
   border-bottom: 1px solid grey;
 }
 
-.footer2 ul {
+/* regole uguali tra le sezioni */
+
+footer ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+}
+
+footer li a {
+  text-decoration: none;
+  display: block;
+}
+
+footer ul li {
+}
+
+.footer1 ul {
+}
+
+.footer1 li a {
+  color: grey;
+}
+
+.footer2 ul {
   overflow: hidden;
 }
 
@@ -179,20 +190,39 @@ footer .text {
   float: left;
 }
 
-.footer2 li a {
-  display: block;
+.footer2 a {
   color: white;
   text-align: center;
-  text-decoration: none;
 }
 
+.footer2 .fab {
+  color: white;
+}
+
+
+/* sezione 3 footer (bottoni shop) */
+.bottonefooter {
+  border: 2px solid white;
+  border-radius: 5%;
+}
+
+/* FINE CSS FOOTER */
 
 
 
 /* regole corpo pagina */
 
-
-
 .mono-old-phone {
 
 }
+
+/* MEDIA QUERY */
+
+/* versione smartphone */
+@media all and (max-width: 768px) {}
+
+/* versione tablet */
+@media all and (min-width: 769px) and (max-width: 992px) {}
+
+/* versione desktop */
+@media all and (min-width: 993px) {}
