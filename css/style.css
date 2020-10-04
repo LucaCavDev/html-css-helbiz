@@ -16,10 +16,6 @@ a {
   color: black;
 }
 
-
-
-
-
 /* regole di debug */
 [class*="col-"] {
   /* min-height: 100px;
@@ -39,17 +35,27 @@ img {
 
 /* header */
 
-header {
+header nav{
+  background-color: white;
+
   /* padding-top: 100px; */
 }
 
 #nav-large {
+
+  min-height: 100px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  width: 100%;
   /* position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 900; */
 }
+
 
 #nav-mobile {
   display: none;
@@ -112,15 +118,22 @@ header li a {
   padding-left: 5%;
 }
 
-/* sezioone how to */
+/* sezione anziano monopattino iphone */
+.mono-old-phone {
+  background-color: red;
+}
+#iphone {
+  max-height: 200px;
+  max-width: auto;
+  z-index: 1;
+}
+
 
 /* sezioone smart mobility */
 
 .centra-sez1 {
   /* VEDI SEZIONE PRODOTTI */
 }
-
-
 
 .relative {
   position: relative;
