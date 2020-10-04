@@ -8,12 +8,18 @@
 img {
   max-width: 100%;
   height: auto;
+  /* debug */
+  max-height: 1000px;
 }
 
 
 a {
   text-decoration: none;
   color: black;
+}
+
+.centra-sez1-3 {
+  padding: 5% 5%;
 }
 
 /* regole di debug */
@@ -24,16 +30,12 @@ a {
   padding: 0px; */
 }
 
-img {
-  max-height: 1000px;
-}
 
-
+/* header */
 .centra-head-foot{
   /* padding: 0 10%; */
 }
 
-/* header */
 
 header nav{
   background-color: white;
@@ -104,28 +106,34 @@ header li a {
   font-size: 12px;
 }
 
-/* sezioone prodotti  */
-
-.centra-sez1 {
-  padding: 5% 5%;
-}
+/* sezione1 prodotti  */
 
 .grigino-prodotti {
   background-color: rgb(250, 250, 250);
 }
 
+.pdt1 {
+  /* margin-right: 5%; */
+}
 .pdt2 {
-  padding-left: 5%;
+  /* margin-left: 5%; */
 }
 
-/* sezione anziano monopattino iphone */
+/* sezione2 anziano monopattino iphone */
 .mono-old-phone {
   background-color: red;
+  position: relative;
 }
+
+
 #iphone {
   max-height: 200px;
   max-width: auto;
   z-index: 1;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 
